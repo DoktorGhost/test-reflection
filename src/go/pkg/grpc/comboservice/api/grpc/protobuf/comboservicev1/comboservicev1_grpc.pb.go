@@ -2,9 +2,9 @@
 // versions:
 // - protoc-gen-go-grpc v1.4.0
 // - protoc             v5.29.3
-// source: api/grpc/protobuf/combo_service_v1/combo_service_v1.proto
+// source: api/grpc/protobuf/comboservicev1/comboservicev1.proto
 
-package combo_service_v1
+package comboservicev1
 
 import (
 	context "context"
@@ -146,7 +146,7 @@ var ComboService_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "api/grpc/protobuf/combo_service_v1/combo_service_v1.proto",
+	Metadata: "api/grpc/protobuf/comboservicev1/comboservicev1.proto",
 }
 
 const (
@@ -237,7 +237,7 @@ var ComboCatalogService_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "api/grpc/protobuf/combo_service_v1/combo_service_v1.proto",
+	Metadata: "api/grpc/protobuf/comboservicev1/comboservicev1.proto",
 }
 
 const (
@@ -328,5 +328,5 @@ var ResourcesService_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "api/grpc/protobuf/combo_service_v1/combo_service_v1.proto",
+	Metadata: "api/grpc/protobuf/comboservicev1/comboservicev1.proto",
 }

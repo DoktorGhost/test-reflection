@@ -3,7 +3,7 @@
 
 ## Table of Contents
 
-- [api/grpc/protobuf/combo_service_v1/combo_service_v1.proto](#api_grpc_protobuf_combo_service_v1_combo_service_v1-proto)
+- [api/grpc/protobuf/comboservicev1/comboservicev1.proto](#api_grpc_protobuf_comboservicev1_comboservicev1-proto)
     - [GetResourcesResponse](#combo-GetResourcesResponse)
   
     - [ComboCatalogService](#combo-ComboCatalogService)
@@ -14,10 +14,10 @@
 
 
 
-<a name="api_grpc_protobuf_combo_service_v1_combo_service_v1-proto"></a>
+<a name="api_grpc_protobuf_comboservicev1_comboservicev1-proto"></a>
 <p align="right"><a href="#top">Top</a></p>
 
-## api/grpc/protobuf/combo_service_v1/combo_service_v1.proto
+## api/grpc/protobuf/comboservicev1/comboservicev1.proto
 
 
 

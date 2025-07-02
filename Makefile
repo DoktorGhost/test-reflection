@@ -24,20 +24,20 @@ generate-go-common-v1-api:
     	api/grpc/protobuf/common/v1/*.proto
 
 generate-go-combo_service_v1-api:
-	mkdir -p src/go/pkg/grpc/combo_service
+	mkdir -p src/go/pkg/grpc/comboservice
 	GOBIN=$(LOCAL_BIN) protoc \
 	--proto_path . \
-	--proto_path api/grpc/protobuf/combo_service_v1 \
-	--go_out=src/go/pkg/grpc/combo_service \
+	--proto_path api/grpc/protobuf/comboservicev1 \
+	--go_out=src/go/pkg/grpc/comboservice \
 	--go_opt=paths=source_relative \
-	--go-grpc_out=src/go/pkg/grpc/combo_service \
+	--go-grpc_out=src/go/pkg/grpc/comboservice \
 	--go-grpc_opt=paths=source_relative \
 	--plugin=protoc-gen-go=bin/protoc-gen-go \
 	--plugin=protoc-gen-go-grpc=bin/protoc-gen-go-grpc \
 	--plugin=protoc-gen-doc=bin/protoc-gen-doc \
 	--doc_out=. \
 	--doc_opt=markdown,README.md,source_relative \
-	api/grpc/protobuf/combo_service_v1/*.proto
+	api/grpc/protobuf/comboservicev1/*.proto
 
 generate-go-disc_service_v1-api:
 	mkdir -p src/go/pkg/grpc/disc_service

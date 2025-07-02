@@ -2,12 +2,12 @@ syntax = "proto3";
 
 package combo;
 
-import "api/grpc/protobuf/common/v1/internal_selection_products_v1.proto";
-import "api/grpc/protobuf/common/v1/internal_resources_v1.proto";
-import "api/grpc/protobuf/common/v1/internal_discount_products_v1.proto";
+import "api/grpc/protobuf/common/v1/internalselectionproductsv1.proto";
+import "api/grpc/protobuf/common/v1/internalresourcesv1.proto";
+import "api/grpc/protobuf/common/v1/internaldiscountproductsv1.proto";
 import "google/protobuf/empty.proto";
 
-option go_package = "github.com/DoktorGhost/test-reflection/src/go/pkg/grpc/combo_service_v1";
+option go_package = "github.com/DoktorGhost/test-reflection/src/go/pkg/grpc/comboservicev1";
 
 service ComboService {
   rpc GetSelectionProducts(internal.common.v1.selection.SelectionRequest) returns (internal.common.v1.selection.SelectionResponse);

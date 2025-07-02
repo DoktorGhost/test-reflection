@@ -3,15 +3,15 @@
 
 ## Table of Contents
 
-- [internal_discount_products_v1.proto](#internal_discount_products_v1-proto)
+- [internaldiscountproductsv1.proto](#internaldiscountproductsv1-proto)
     - [DiscountRequest](#internal-common-v1-discount-DiscountRequest)
     - [DiscountResponse](#internal-common-v1-discount-DiscountResponse)
   
-- [internal_resources_v1.proto](#internal_resources_v1-proto)
+- [internalresourcesv1.proto](#internalresourcesv1-proto)
     - [ResourcesRequest](#internal-common-v1-resources-ResourcesRequest)
     - [ResourcesResponse](#internal-common-v1-resources-ResourcesResponse)
   
-- [internal_selection_products_v1.proto](#internal_selection_products_v1-proto)
+- [internalselectionproductsv1.proto](#internalselectionproductsv1-proto)
     - [SelectionRequest](#internal-common-v1-selection-SelectionRequest)
     - [SelectionResponse](#internal-common-v1-selection-SelectionResponse)
   
@@ -19,10 +19,10 @@
 
 
 
-<a name="internal_discount_products_v1-proto"></a>
+<a name="internaldiscountproductsv1-proto"></a>
 <p align="right"><a href="#top">Top</a></p>
 
-## internal_discount_products_v1.proto
+## internaldiscountproductsv1.proto
 
 
 
@@ -67,10 +67,10 @@
 
 
 
-<a name="internal_resources_v1-proto"></a>
+<a name="internalresourcesv1-proto"></a>
 <p align="right"><a href="#top">Top</a></p>
 
-## internal_resources_v1.proto
+## internalresourcesv1.proto
 
 
 
@@ -115,10 +115,10 @@
 
 
 
-<a name="internal_selection_products_v1-proto"></a>
+<a name="internalselectionproductsv1-proto"></a>
 <p align="right"><a href="#top">Top</a></p>
 
-## internal_selection_products_v1.proto
+## internalselectionproductsv1.proto
 
 
 

@@ -6,7 +6,7 @@ install-go-deps:
 	GOBIN=$(LOCAL_BIN) go install github.com/bufbuild/buf/cmd/buf@v1.50.0
 	GOBIN=$(LOCAL_BIN) go install github.com/pseudomuto/protoc-gen-doc/cmd/protoc-gen-doc@v1.5.1
 
-proto: generate-go-common-v1-api generate-go-combo_service_v1-api
+proto: generate-go-common-v1-api generate-go-combo_service_v1-api generate-go-disc_service_v1-api
 
 generate-go-common-v1-api:
 	mkdir -p src/go/pkg/grpc/common/v1

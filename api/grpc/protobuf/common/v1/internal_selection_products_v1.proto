@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package internal.common.v1.selection;
+
+option go_package = "github.com/DoktorGhost/test-reflection/src/go/pkg/grpc/common/v1;internal_common_v1";
+
+import "google/protobuf/timestamp.proto";
+
+message SelectionRequest {
+  int64 product_id = 1;
+  google.protobuf.Timestamp date_from = 2;
+  int64 privilege_used = 3;
+}
+
+message SelectionResponse{
+  int64 product_id = 1;
+  google.protobuf.Timestamp date_from = 2;
+  int64 privilege_used = 3;
+}
+

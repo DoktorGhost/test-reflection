@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package internal.common.v1.resources;
+
+option go_package = "github.com/DoktorGhost/test-reflection/src/go/pkg/grpc/common/v1;internal_common_v1";
+
+message ResourcesRequest {
+  int64 product_id = 1;
+  int64 privilege_used = 2;
+}
+
+message ResourcesResponse {
+  int64 product_id = 1;
+  int64 privilege_used = 2;
+}

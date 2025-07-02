@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+package combo;
+
+import "api/grpc/protobuf/common/v1/internal_selection_products_v1.proto";
+import "api/grpc/protobuf/common/v1/internal_resources_v1.proto";
+import "api/grpc/protobuf/common/v1/internal_discount_products_v1.proto";
+import "google/protobuf/empty.proto";
+
+option go_package = "github.com/DoktorGhost/test-reflection/src/go/pkg/grpc/combo_service_v1";
+
+service ComboService {
+  rpc GetSelectionProducts(internal.common.v1.selection.SelectionRequest) returns (internal.common.v1.selection.SelectionResponse);
+  rpc GetResources(google.protobuf.Empty) returns (GetResourcesResponse);
+}
+
+service ComboCatalogService {
+  rpc GetProducts(internal.common.v1.discount.DiscountRequest) returns (internal.common.v1.discount.DiscountResponse);
+}
+
+service ResourcesService {
+  rpc GetResources(internal.common.v1.resources.ResourcesRequest) returns (internal.common.v1.resources.ResourcesResponse);
+}
+
+message GetResourcesResponse {
+  int64 privilege_id = 1;
+}

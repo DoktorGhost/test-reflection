@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package combo;
+
+import "google/protobuf/empty.proto";
+
+option go_package = "github.com/DoktorGhost/test-reflection/src/go/pkg/grpc/disc_service_v1";
+
+service DiscService {
+  rpc GetResources(google.protobuf.Empty) returns (GetResourcesResponse);
+}
+
+message GetResourcesResponse {
+  int64 privilege_id = 1;
+}
